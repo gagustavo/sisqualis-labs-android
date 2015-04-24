@@ -22,3 +22,12 @@ O tema deste projeto é o desenvolvimento para Android.
 - Comparação entre um app simples feito com Cordova versus Nativo
 - Criar testes para app Android usando alguma ferramenta de testes para Java
 - Entre outros.
+
+
+## Instalação
+
+Clone este repositório, entre na pasta do projeto e rode comando `android update project --path app/src/main/ --target android-22` para gerar o arquivo `local.properties`.
+
+Em seguida rode o comando `mv app/src/main/local.properties .` para mover o arquivo gerado para a pasta correta.
+
+
