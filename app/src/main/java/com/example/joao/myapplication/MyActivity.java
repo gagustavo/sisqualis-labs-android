@@ -1,5 +1,6 @@
 package com.example.joao.myapplication;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -11,7 +12,7 @@ import android.view.View;
 import android.widget.EditText;
 
 
-public class MyActivity extends ActionBarActivity {
+public class MyActivity extends Activity {
 
     public final static String EXTRA_MESSAGE = "com.example.joao.myapplication.MESSAGE";
 

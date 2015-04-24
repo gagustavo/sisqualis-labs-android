@@ -1,5 +1,6 @@
 package com.example.joao.myapplication;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -12,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class DisplayMessageActivity extends ActionBarActivity {
+public class DisplayMessageActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
