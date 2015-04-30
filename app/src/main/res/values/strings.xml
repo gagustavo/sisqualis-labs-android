@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">My First App</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_display_message">My Message</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="action_search">Search</string>
+    <string name="app_name">Meu primeiro app</string>
+    <string name="edit_message">Escreva um texto</string>
+    <string name="button_send">Enviar</string>
+    <string name="title_activity_main">Principal</string>
+    <string name="title_activity_display_message">Mensagem</string>
+    <string name="hello_world">Alô mundo!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_search">Buscar</string>
     <string name="action_teste">Teste</string>
-    <string name="dialog_message">Clicou no botão Settings</string>
+    <string name="dialog_message">Clicou no botão Ajustes</string>
     <string name="dialog_title">Alerta</string>
 </resources>
