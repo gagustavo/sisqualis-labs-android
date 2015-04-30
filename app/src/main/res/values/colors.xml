@@ -2,5 +2,5 @@
 <resources>
     <color name="disabled_text">#9FFF</color>
     <color name="actionbar">#000</color>
-    <color name="background">#ff4460fc</color>
+    <color name="background">#ff5c5c5c</color>
 </resources>
