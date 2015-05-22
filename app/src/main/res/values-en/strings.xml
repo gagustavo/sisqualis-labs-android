@@ -12,4 +12,6 @@
     <string name="dialog_title">Alert</string>
     <string name="action_artigos">Articles</string>
     <string name="title_lista_de_artigos">Articles List</string>
+    <string name="action_form_simples">Simple Form</string>
+    <string name="title_activity_formulario_simples">Simple Form</string>
 </resources>

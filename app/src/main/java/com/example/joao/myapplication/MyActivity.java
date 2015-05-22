@@ -14,8 +14,6 @@ import android.widget.EditText;
 
 public class MyActivity extends Activity {
 
-    public final static String EXTRA_MESSAGE = "com.example.joao.myapplication.MESSAGE";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +41,9 @@ public class MyActivity extends Activity {
             case R.id.action_artigos:
                 openArticles();
                 return true;
+            case R.id.action_form_simples:
+                openFormSimples();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -65,12 +66,8 @@ public class MyActivity extends Activity {
         startActivity(intent);
     }
 
-    /** Called when the user clicks the Send button */
-    public void sendMessage(View view) {
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText) findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+    public void openFormSimples() {
+        Intent intent = new Intent(this, FormularioSimples.class);
         startActivity(intent);
     }
 }

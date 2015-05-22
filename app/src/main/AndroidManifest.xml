@@ -17,20 +17,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DisplayMessageActivity"
-            android:label="@string/title_activity_display_message"
-            android:parentActivityName=".MyActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.joao.myapplication.MyActivity" />
-        </activity>
-        <activity
             android:name=".ListaDeArtigos"
             android:label="@string/title_lista_de_artigos"
             android:parentActivityName=".MyActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.joao.myapplication.MyActivity" />
+        </activity>
+        <activity
+            android:name=".FormularioSimples"
+            android:label="@string/title_activity_formulario_simples"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joao.myapplication.MyActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".FormularioSimples" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joao.myapplication.FormularioSimples" />
         </activity>
     </application>
 

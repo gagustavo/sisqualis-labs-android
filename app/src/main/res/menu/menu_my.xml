@@ -9,6 +9,11 @@
         android:title="@string/action_settings"
         android:showAsAction="never" />
 
+    <item android:id="@+id/action_form_simples"
+        android:title="@string/action_form_simples"
+        android:showAsAction="never" />
+
+
     <item android:id="@+id/action_artigos"
         android:title="@string/action_artigos"
         android:showAsAction="never" />
