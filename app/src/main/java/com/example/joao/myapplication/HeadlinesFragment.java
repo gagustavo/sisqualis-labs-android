@@ -12,12 +12,6 @@ import android.widget.ListView;
 public class HeadlinesFragment extends ListFragment {
     OnHeadlineSelectedListener mCallback;
 
-    // The container Activity must implement this interface so the frag can deliver messages
-    public interface OnHeadlineSelectedListener {
-        /** Called by HeadlinesFragment when a list item is selected */
-        public void onArticleSelected(int position);
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,5 +56,13 @@ public class HeadlinesFragment extends ListFragment {
 
         // Set the item as checked to be highlighted when in two-pane layout
         getListView().setItemChecked(position, true);
+    }
+
+    // The container Activity must implement this interface so the frag can deliver messages
+    public interface OnHeadlineSelectedListener {
+        /**
+         * Called by HeadlinesFragment when a list item is selected
+         */
+        public void onArticleSelected(int position);
     }
 }

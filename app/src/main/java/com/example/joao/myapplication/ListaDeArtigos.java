@@ -1,10 +1,9 @@
 package com.example.joao.myapplication;
 
 
-import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-
+import android.support.v4.app.FragmentTransaction;
 
 
 public class ListaDeArtigos extends FragmentActivity
