@@ -9,6 +9,10 @@
         android:title="@string/action_settings"
         android:showAsAction="never" />
 
+    <item android:id="@+id/action_artigos"
+        android:title="@string/action_artigos"
+        android:showAsAction="never" />
+
     <item android:id="@+id/action_teste"
         android:title="@string/action_teste"
         android:showAsAction="never" />

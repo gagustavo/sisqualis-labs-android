@@ -24,6 +24,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.joao.myapplication.MyActivity" />
         </activity>
+        <activity
+            android:name=".ListaDeArtigos"
+            android:label="@string/title_lista_de_artigos"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joao.myapplication.MyActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -10,4 +10,6 @@
     <string name="action_teste">Teste</string>
     <string name="dialog_message">Clicou no botão Ajustes</string>
     <string name="dialog_title">Alerta</string>
+    <string name="action_artigos">Artigos</string>
+    <string name="title_lista_de_artigos">Lista de Artigos</string>
 </resources>

@@ -40,6 +40,9 @@ public class MyActivity extends Activity {
             case R.id.action_settings:
                 openSettings();
                 return true;
+            case R.id.action_artigos:
+                openArticles();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -55,6 +58,11 @@ public class MyActivity extends Activity {
 
         AlertDialog dialog = builder.create();
         dialog.show();
+    }
+
+    public void openArticles() {
+        Intent intent = new Intent(this, ListaDeArtigos.class);
+        startActivity(intent);
     }
 
     /** Called when the user clicks the Send button */
