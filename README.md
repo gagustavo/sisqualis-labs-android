@@ -31,3 +31,6 @@ Clone este repositório, entre na pasta do projeto e rode comando `android updat
 Em seguida rode o comando `mv app/src/main/local.properties .` para mover o arquivo gerado para a pasta correta.
 
 
+## Contribuindo
+
+Em breve...
