@@ -33,4 +33,4 @@ Em seguida rode o comando `mv app/src/main/local.properties .` para mover o arqu
 
 ## Contribuindo
 
-Em breve...
+Temporariamente não serão aceitas contribuições
